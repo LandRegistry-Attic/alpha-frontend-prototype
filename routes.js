@@ -13,6 +13,11 @@ module.exports = {
                 {'assetPath' : assetPath});
     });
 
+    app.get('/sprint-1', function (req, res) {
+      res.render('sprint-1/index',
+                {'assetPath' : assetPath});
+    });
+
     /* Example pages */
 
     app.get('/examples/hello-world', function (req, res) {

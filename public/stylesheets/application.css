@@ -44,7 +44,10 @@
   max-width: 1020px; }
 
 .page-header {
-  padding: 0 32px; }
+  padding: 0 15px; }
+  @media (min-width: 641px) {
+    .page-header {
+      padding: 0 30px; } }
   .page-header h1 {
     font-family: "nta", Arial, sans-serif;
     font-size: 48px;
