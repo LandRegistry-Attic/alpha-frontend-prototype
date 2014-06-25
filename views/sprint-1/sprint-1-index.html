@@ -7,13 +7,7 @@
 {{/head}}
 
 {{$afterHeader}}
-<div class="alpha-banner">
-  <div class="outer-block">
-    <div class="inner-block">
-      <p>This website is in <strong>ALPHA</strong> and all content is subject to change. Please, <a href="https://designpatterns.hackpad.com/GOV.UK-elements-feedback-sKrDyQxcfA2">give us your feedback</a>.</p>
-    </div>
-  </div>
-</div>
+  {{>alpha_banner}}
 {{/afterHeader}}
 
 {{$content}}
@@ -22,13 +16,11 @@
     <h1>Land Registry alpha prototype</h1>
   </header>
 
-  <div class="grid-wrapper">
-    <div class="grid">
-      <section class="inner-block">
-        <h2>Sprint 1</h2>
-      </section>
+  <section class="inner-block">
+    <div class="text">
+      <h2>Sprint 1</h2>
     </div>
-  </div>
+  </section>
 
 </main>
 {{/content}}
