@@ -2,7 +2,6 @@
 
 @import '_colours';
 @import '_typography';
-@import '_measurements';
 @import 'design-patterns/_buttons';
 @import 'design-patterns/_alpha-beta';
 
@@ -15,11 +14,7 @@
   }
 }
 .page-header {
-  padding: 0 $gutter-half;
-
-  @include media(tablet) {
-    padding: 0 $gutter;
-  }
+  padding: 0 32px;
 
   h1 {
     @include bold-48;
