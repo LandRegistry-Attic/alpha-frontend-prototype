@@ -5,6 +5,11 @@
 @import 'design-patterns/_buttons';
 @import 'design-patterns/_alpha-beta';
 
+// mini reset
+strong {
+  font-weight: bold;
+}
+
 #content {
   margin: 0 auto;
   max-width: 1020px;
@@ -27,6 +32,9 @@
 .alpha-banner  {
   @include core-19;
   @include phase-banner(alpha);
+  p {
+    padding: 0;
+  }
   strong {
     text-transform: uppercase;
   }

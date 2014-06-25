@@ -39,6 +39,9 @@
   width: device-width; }
 
 
+strong {
+  font-weight: bold; }
+
 #content {
   margin: 0 auto;
   max-width: 1020px; }
@@ -89,6 +92,8 @@
     color: #0b0c0c; }
   .alpha-banner a:hover {
     color: #0b0c0c; }
+  .alpha-banner p {
+    padding: 0; }
   .alpha-banner strong {
     text-transform: uppercase; }
 
