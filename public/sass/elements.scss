@@ -1,6 +1,7 @@
 // includes node_modules/govuk_frontend_toolkit/govuk_frontend_toolkit/stylesheets
 
 // Import GOV.UK frontend toolkit
+
 @import "colours";
 @import "measurements";
 @import "conditionals";
@@ -34,6 +35,9 @@
 // Buttons
 @import "elements/buttons";
 
+// Details
+@import "elements/details";
+
 // Lists
 @import "elements/lists";
 
@@ -42,3 +46,7 @@
 
 // Colours
 @import "elements/colours";
+
+// Icons
+@import "elements/icons";
+
